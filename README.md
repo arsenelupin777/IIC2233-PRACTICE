@@ -14,15 +14,17 @@ El repositorio está organizado según el semestre al que pertenece originalment
 etc
 ```
 
-Cada carpeta contiene mis soluciones a las actividades, tareas y ejercicios de ese semestre en particular. Dentro de cada una, la estructura típica es:
+Cada carpeta contiene mis soluciones a las actividades, tareas y ejercicios de ese semestre en particular. Dentro de cada una, la estructura típica (no siempre es así) es:
 
 ```
 AC XXXX-X/
-├── tests_publicos/     # Tests públicos entregados por el curso
-├── utils/              # Funciones, archivos del ejercicio
-├── entities.py         # Clases/entidades del ejercicio
-├── Enunciado.pdf        # Enunciado original de la actividad
-└── main.py              # Mi solución/desarrollo del ejercicio
+└── Actividades/
+    └── ACN/                  # N = número de la actividad (AC0, AC1, ...)
+        ├── tests_publicos/   # Tests públicos entregados por el curso
+        ├── utils/            # Funciones o clases de apoyo
+        ├── entities.py       # Clases/entidades del ejercicio
+        ├── Enunciado.pdf     # Enunciado original de la actividad
+        └── main.py           # Mi solución/desarrollo del ejercicio
 ```
 
 > El archivo principal con mi resolución de cada ejercicio es **`main.py`**.
